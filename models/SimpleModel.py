@@ -1,7 +1,8 @@
 class SimpleModel:
 
-    def __init__(self, campaigns):
+    def __init__(self, campaigns, payments):
         self.campaigns = campaigns
+        self.payments = payments
 
     def get_list(self, date, user_id):
         df = self.campaigns
