@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hackathon"
+version = "0.1.0"
+description = ""
+authors = ["Tooba"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+numpy = "1.26.4"
+catboost = "^1.2.5"
+ipykernel = "^6.29.5"
+openpyxl = "^3.1.5"
+scikit-learn = "^1.5.1"
+tqdm = "^4.66.5"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
